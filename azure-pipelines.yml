@@ -7,7 +7,7 @@ trigger:
 - none
 
 schedules:
-- cron: '0 8 * * *'
+- cron: '* 8 * * *'
   displayName: Daily midnight build
   branches:
     include:
