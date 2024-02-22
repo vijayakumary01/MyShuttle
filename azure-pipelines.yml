@@ -13,8 +13,7 @@ schedules:
     include:
     - master
     - releases/*
-    exclude:
-    - releases/ancient/*
+
 
 
 pool:
